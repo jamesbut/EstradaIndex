@@ -12,7 +12,7 @@ This program was used to generate a subset of the results in this paper: https:/
 
 # Usage #
 
-This is a very simple package, it only consists of 1 class that sits on top of the linear algebra library Jama: 
+This is a very simple package, it only consists of 1 class that sits on top of the linear algebra library 'JAMA': 
 http://math.nist.gov/javanumerics/jama/
 
 So you just give it the adjacency matrix and it does all the eigendecomposition for you.
