@@ -8,6 +8,8 @@ With some simple modifications it turns out that for each eigenvalue, if it is r
 
 Once this has been realised, construction of an algorithm is trivial, it just checks to see whether the eigenvalue is complex or not and then contributes to the overall sum in the appropriate way.
 
+This program was used to generate a subset of the results in this paper: https://livrepository.liverpool.ac.uk/3002656/1/29_comma2016_Butterworth.pdf
+
 # Usage #
 
 This is a very simple package, it only consists of 1 class that sits on top of the linear algebra library Jama: 
