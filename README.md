@@ -1,8 +1,8 @@
 A package to calculate the Estrada Index of an adjacency matrix.
 
-#########
+
 # Intro #
-#########
+
 
 I was conducting research into spectral analysis of argumentation frameworks at the University of Liverpool and I noticed that the only packages to calculate the Estrada Index of a graph were intended for undirected graphs only. Interestingly, the eigenvalues of directed graphs can be complex so the normal equation for the Estrada Index has to be modified to account for this. 
 
