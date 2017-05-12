@@ -2,7 +2,7 @@ A package to calculate the Estrada Index of an adjacency matrix.
 
 # Intro #
 
-I was conducting research into spectral analysis of argumentation frameworks at the University of Liverpool and I noticed that the only packages to calculate the Estrada Index of a graph were intended for undirected graphs only. Interestingly, the eigenvalues of directed graphs can be complex so the normal equation for the Estrada Index has to be modified to account for this. 
+I was conducting research into spectral analysis of argumentation frameworks at the University of Liverpool and I noticed that the only packages to calculate the Estrada Index of a graph were intended for undirected graphs. Interestingly, the eigenvalues of directed graphs can be complex so the normal equation for the Estrada Index has to be modified to account for this. 
 
 With some simple modifications it turns out that for each eigenvalue, if it is real, it contributes to the sum in the normal way +exp(lambda) where as if lambda is complex it contributes in this way: +2*exp(a)*cos(b), where a and b are the real and imaginary parts of the complex number respectively. A corollary of this is that the Estrada Index is always real, even for directed graphs. I have included a picture of my original proof to make this more clear and information about the Estrada Index can be found at: https://en.wikipedia.org/wiki/Estrada_index
 
