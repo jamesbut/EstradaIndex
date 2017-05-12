@@ -10,7 +10,9 @@ Once this has been realised, construction of an algorithm is trivial, it just ch
 
 # Usage #
 
-This is a very simple package, it only consists of 1 class that sits on top of the linear algebra library Jama: http://math.nist.gov/javanumerics/jama/
+This is a very simple package, it only consists of 1 class that sits on top of the linear algebra library Jama: 
+http://math.nist.gov/javanumerics/jama/
+
 So you just give it the adjacency matrix and it does all the eigendecomposition for you.
 
 I have included a Test.java file to show how to call the class.
